@@ -21,11 +21,11 @@ path=os.path.join(parent_dir,directory)
 os.mkdir(path)
 for i in range (0,100):
     n=str(i)
-    file=open("C:\Users\임승현\Desktop\HEVEN\week1\data"+"00"+n+".txt",'w')
+    file=open("C:\Users\임승현\Desktop\HEVEN\week1\data\\"+"00"+n+".txt",'w')
     file.write(n)
     file.close()
     
-f=open("C:\Users\임승현\Desktop\HEVEN\week1\files.txt",'w')
+f=open("C:\Users\임승현\Desktop\HEVEN\week1\\files.txt",'w')
 for i in range(0,100):
     n=str(i)
     
